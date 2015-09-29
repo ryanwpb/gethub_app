@@ -1,6 +1,9 @@
+
+
 <h1>GitHub User Sign in</h1>
+
 <%=form_tag "/gethub/results" do %>
 
-    User Name: <input> </input>
+  <%= text_field_tag 'username' %>
   <%=submit_tag "Submit" %>
 <% end %>
